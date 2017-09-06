@@ -66,6 +66,23 @@ h2 {
 	color: #333333;
 }
 
+.thumbnail {
+	border: none !important;
+}
+.bio_pictures {
+	border-radius: 100%;
+	margin-top: 6rem;
+}
+
+.thumbnail a>img, .thumbnail>img {
+	width: 60%;
+}
+
+.character-grid p {
+	text-align: center;
+	font-family: 'Alegreya Sans', sans-serif !important;
+}
+
 @media (max-width: 480px) {
 	#image-grid .grid-item {
 		clear:left;
