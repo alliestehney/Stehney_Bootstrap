@@ -1,0 +1,10 @@
+.jumbotron {
+	background-image: url("img/ross_rachel2.jpg");
+	background-size: cover;
+	height: 38rem;
+}
+
+#friends_logo {
+	width: auto;
+	height: 70%;
+}
