@@ -39,10 +39,31 @@ h1#about {
 	padding: 1rem;
 }
 
+p.homeP {
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight: 300;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	font-size: 18px;
+}
+
 h2 {
 	margin-left: 2rem;
 	font-family: 'Alegreya Sans', sans-serif !important;
 	font-weight: 400 !important;
+}
+
+#footer {
+	margin-bottom: 0;
+}
+
+#home_icon {
+	margin-right: 0.7rem;
+	color: black;
+}
+
+#home_icon:hover {
+	color: #333333;
 }
 
 @media (max-width: 480px) {
@@ -64,6 +85,11 @@ h2 {
 	}
 
 	h2 {
+		text-align:center;
+		margin-left: 0;
+	}
+
+	p.homeP {
 		text-align: center;
 	}
 }
