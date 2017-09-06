@@ -83,6 +83,10 @@ h2 {
 	font-family: 'Alegreya Sans', sans-serif !important;
 }
 
+#modalbtn {
+	text-align: center;
+}
+
 @media (max-width: 480px) {
 	#image-grid .grid-item {
 		clear:left;
@@ -108,5 +112,9 @@ h2 {
 
 	p.homeP {
 		text-align: center;
+	}
+
+	img.bio_pictures {
+		display: none !important;
 	}
 }
