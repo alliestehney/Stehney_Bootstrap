@@ -27,6 +27,13 @@
 h1#about {
 	margin-top: 6%;
 	font-family: 'Alegreya Sans', sans-serif;
+	margin-left: 2rem;
+}
+
+.abtcontent {
+	font-family: 'Alegreya Sans', sans-serif;
+	margin-left: 2rem;
+	font-size: 16px;
 }
 
 #aboutphoto {
@@ -75,7 +82,7 @@ h2 {
 }
 
 .thumbnail a>img, .thumbnail>img {
-	width: 60%;
+	width: 100%;
 }
 
 .character-grid p {
@@ -85,6 +92,11 @@ h2 {
 
 #modalbtn {
 	text-align: center;
+}
+
+#gif {
+	margin-left: 24%;
+	margin-right: 24%;
 }
 
 @media (max-width: 480px) {
@@ -116,5 +128,15 @@ h2 {
 
 	img.bio_pictures {
 		display: none !important;
+	}
+
+	#modalbtn {
+		margin-top: 6rem;
+		left:0;
+	}
+
+	#gif {
+		margin-left:0;
+		width: 100%;
 	}
 }
