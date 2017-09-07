@@ -75,6 +75,7 @@ h2 {
 
 .thumbnail {
 	border: none !important;
+	position:relative;
 }
 .bio_pictures {
 	border-radius: 100%;
@@ -83,6 +84,10 @@ h2 {
 
 .thumbnail a>img, .thumbnail>img {
 	width: 100%;
+}
+
+.thumbnail .characters {
+	width: 60%;
 }
 
 .character-grid p {
@@ -97,6 +102,21 @@ h2 {
 #gif {
 	margin-left: 24%;
 	margin-right: 24%;
+}
+
+.post-content {
+    position: absolute;
+    background-color: white;
+    opacity: 0.75;
+    width: 100%;
+    bottom: 0;
+    left:0;
+}
+
+.episode {
+	font-family: 'Alegreya Sans', sans-serif !important;
+	text-align: center;
+	font-weight: 300;
 }
 
 @media (max-width: 480px) {
