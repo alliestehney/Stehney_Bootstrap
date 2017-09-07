@@ -123,6 +123,14 @@ h2 {
 	font-weight: 300;
 }
 
+#footerP {
+	font-family: 'Alegreya Sans', sans-serif !important;
+	font-weight: 300;
+	float: right;
+	margin-right: 63%;
+
+}
+
 @media (max-width: 480px) {
 	#image-grid .grid-item {
 		clear:left;
