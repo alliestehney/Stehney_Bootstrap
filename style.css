@@ -85,8 +85,7 @@ h2 {
 .thumbnail a>img, .thumbnail>img {
 	width: 100%;
 }
-
-.thumbnail .characters {
+.thumbnail.characters>img {
 	width: 60%;
 }
 
@@ -96,7 +95,12 @@ h2 {
 }
 
 #modalbtn {
-	text-align: center;
+	padding: 0.8rem;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin-left: 14rem;
+    margin-right: 14rem;
 }
 
 #gif {
@@ -151,8 +155,10 @@ h2 {
 	}
 
 	#modalbtn {
-		margin-top: 6rem;
-		left:0;
+		width: 100%;
+		margin-top: 3rem;
+	    margin-left: 0.8rem;
+	    margin-right: 0.8rem;
 	}
 
 	#gif {
