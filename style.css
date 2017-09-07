@@ -140,3 +140,35 @@ h2 {
 		width: 100%;
 	}
 }
+
+@media (min-width: 770px) {
+	#image-grid {
+		margin-left: 0.3rem;
+	}
+}
+
+@media (min-width: 830px) {
+	#image-grid {
+		margin-left: 0.3rem;
+	}
+}
+
+@media (min-width: 768px) {
+	#image-grid {
+		padding: 1rem;
+		margin-left: 5rem;
+		margin-right: 5rem;
+	}
+}
+
+@media (min-width: 992px) {
+	#image-grid {
+		margin-left: 25%;
+	}
+}
+
+@media (min-width: 1024px) {
+	#image-grid {
+		margin-left: 25%;
+	}
+}
