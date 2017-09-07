@@ -173,6 +173,11 @@ h2 {
 		margin-left:0;
 		width: 100%;
 	}
+
+	#footerP {
+		float: left;
+		margin-right: 0;
+	}
 }
 
 @media (min-width: 770px) {
