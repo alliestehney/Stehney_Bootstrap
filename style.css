@@ -24,6 +24,11 @@
 	color: #00bfff !important;
 }
 
+.navbar-nav>li>a {
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 16px;
+}
+
 h1#about {
 	margin-top: 6%;
 	font-family: 'Alegreya Sans', sans-serif;
@@ -152,6 +157,29 @@ h2 {
 	h2 {
 		text-align:center;
 		margin-left: 0;
+		color: #800020 !important;
+		opacity: 0.9;
+	}
+
+	h1#about {
+		text-align: center;
+		color: #800020 !important;
+		opacity: 0.9;
+	}
+
+	p.abtcontent {
+		text-align: center;
+		font-weight: 300;
+	}
+
+	#aboutphoto {
+		margin-top: 4rem;
+		width: 100%;
+	}
+
+	.navbar-nav>li>a {
+		color: #800020 !important;
+		font-family: 'Alegreya Sans', sans-serif;
 	}
 
 	p.homeP {
